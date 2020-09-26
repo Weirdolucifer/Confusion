@@ -74,6 +74,7 @@ class DishDetail extends Component{
         {
             const commentOutput = this.renderComments(this.props.selectedDish.comments);
             return(
+                <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-5 m-1">
                         {this.renderDish(this.props.selectedDish)}
@@ -81,6 +82,7 @@ class DishDetail extends Component{
                     <div className="col-12 col-md-5 m-1">
                         {commentOutput}
                     </div>
+                </div>
                 </div>
             );
         }
