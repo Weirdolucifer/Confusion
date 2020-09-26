@@ -1,7 +1,7 @@
-import React, {Components} from 'react';
+import React, {Component } from 'react';
 import {Media} from 'reactstrap';
 
-class Menu extends Components{
+class Menu extends Component{
     constructor(props){
         super(props);
         this.state = {
@@ -55,7 +55,7 @@ class Menu extends Components{
                         <Media left middle>
                             <Media object src={dish.image} alt={dish.name} />
                         </Media>
-                        <Media className="ml-5">
+                        <Media body className="ml-5">
                             <Media heading>{dish.name}</Media>
                             <p>{dish.description}</p>
                         </Media>
