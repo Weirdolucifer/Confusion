@@ -1,0 +1,7 @@
+npx create-react-app Confusion
+cd Confusion
+npm start
+
+npm install bootstrap@4.5.2 --save
+npm install reactstrap@8.5.1 --save
+npm install react-popper@2.2.3 --save
