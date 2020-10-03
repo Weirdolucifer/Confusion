@@ -2,6 +2,12 @@ npx create-react-app Confusion
 cd Confusion
 npm start
 
+//cloning the project
+npm install
+
+//while setting up clean project
 npm install bootstrap@4.5.2 --save
 npm install reactstrap@8.5.1 --save
 npm install react-popper@2.2.3 --save
+npm install font-awesome --save
+npm install bootstrap-social --save
